@@ -289,7 +289,7 @@ aside > ul{
 }
 
 footer{
-    background-color: var(--cor05);
+    background-color: #031533;
     color: aliceblue;
     text-align: center;
     padding: 15px;
@@ -306,7 +306,7 @@ footer a{
 
 
 footer a:hover{
-    background-color: var(--cor03);
-    color: var(--cor05);
+    background-color: #58719D;
+    color: #031533;
     transition-duration: 1s;
 }
