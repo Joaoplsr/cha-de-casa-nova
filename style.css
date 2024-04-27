@@ -1,0 +1,312 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Century';
+    src: url(fonts/SansSerifBookFLF.otf) format(opentype);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@keyframes fadeInFromTop {
+    0%{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+:root{
+    --cor00:#c5ebd6;
+    --cor01:#83e1ad;
+    --cor02:#3ddc84;
+    --cor03:#2fa866;
+    --cor04:#1a5c37;
+    --cor05:#063d1e;
+
+    --fonte-padrao:Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --fonte-android: 'Century', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(174, 217, 255);
+    font-family: var(--fonte-padrao);
+}
+
+nav{
+    text-align: center;
+    top: 0;
+    z-index: 2000;
+    position: sticky;
+    background-color: #031533;
+    padding: 30px;
+    box-shadow: 0px 7px 7px #0000006c;
+    border-radius: 0px 0px 25px 25px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #031533;
+}
+
+header div{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    width: 200%;
+}
+
+header div#jota img{
+    background-color: #031533;
+    width: 20%;
+    min-width: 100px;
+    max-width: 200px;
+
+}
+
+nav > a{
+    font-size: 1.5em;
+    animation: fadeInFromTop 2s ease 0s forwards;
+    text-decoration: none;
+    color: #58719D;
+    padding: 10px;
+    font-family: 'Century', Verdana, sans-serif;
+    border-radius: 15px;
+    transition-duration: 1s;
+}
+
+nav > a:hover{
+    background-color: #58719D;
+    color: #031533;
+    transition-duration: 1s;
+}
+
+main{
+    background-color: rgb(221, 239, 255);
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 15px 15px;
+    padding: 20px;
+    box-shadow: 2px 3px 15px #0000006c;
+
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+main div#primeiro-texto{
+    background-color: #58719d79;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0px 7px 7px #0000006c;
+}
+
+main div#centro{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+main div#zap{
+    display: flex;
+    justify-content: center;
+    background-color: #031533;
+    margin: 0px 10%;
+    width: 300px;
+    height: 70px;
+    border-radius: 40px;
+    align-items: center;
+    box-shadow: 0px 7px 7px #0000006c;
+}
+
+main div#zap img{
+    width: 30px;
+    height: 30px;
+}
+
+main div#zap a{
+    margin: 15px 0px;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #2954F8;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+main div.container-1{
+    background-color: #58719d83;
+    border-radius: 20px;
+    box-shadow: 0px 7px 7px #0000006c;
+    padding: 10px;
+}
+
+main div.container-1 ul{
+    list-style-position: inside;
+    columns: 2;
+    list-style-image: url(assets/lista-pq.png);
+}
+
+main div.container-1 ul li{
+    font-size: 1.3em;
+    line-height: 50px;
+    padding-left: 15px;
+}
+
+main img{
+    width: 100%;
+}
+
+main img.pequeno{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+main p{
+    font-size: 1.2em;
+    font-weight: light;
+    margin: 15px 0px;
+    text-indent: 30px;
+    line-height: 2em;
+    text-align: justify;
+    text-align: center;
+}
+
+main p.lista{
+    color: #2D4673;
+}
+
+main strong{
+    font-weight: bold;
+    color: var(--cor05);
+    
+}
+
+main a{
+    text-decoration: none;
+
+    font-weight: bold;
+    border-radius: 15px;
+    transition-duration: 1s;
+}
+
+
+main h1{
+    color: #2D4673;
+    font-family: var(--fonte-android);
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: 2px;
+    user-select: none; /* Padrão */
+    -webkit-user-select: none; /* Para Safari */
+    -moz-user-select: none; /* Para Firefox */
+    -ms-user-select: none; /* Para Edge */
+}
+
+main div.container-1 h1{
+    color: #031533;
+    font-family: 'Great Vibes';
+    font-weight: lighter;
+    padding-top: 10px;
+}
+
+main h1#casa-nova{
+    font-family: 'Great Vibes';
+    text-align: center;
+    color: #58719D;
+    font-size: 5em;
+    font-weight: lighter;
+    user-select: none; /* Padrão */
+    -webkit-user-select: none; /* Para Safari */
+    -moz-user-select: none; /* Para Firefox */
+    -ms-user-select: none; /* Para Edge */
+}
+
+main h1#je{
+    padding: 120px 0px;
+    font-family: 'Great Vibes';
+    text-align: center;
+    color: transparent;
+    font-size: 15em;
+    font-weight: lighter;
+    text-shadow: 4px 4px 7px rgba(255, 255, 255, 0.4), 0 0 #58719D;
+    user-select: none; /* Padrão */
+    -webkit-user-select: none; /* Para Safari */
+    -moz-user-select: none; /* Para Firefox */
+    -ms-user-select: none; /* Para Edge */
+
+}
+
+main h2{
+    font-family: var(--fonte-android);
+    color: var(--cor04);
+    font-size: 1.3em;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+main h2#lista-de-contribuicoes{
+    color: #2D4673;
+    text-align: center;
+    font-family: 'Great Vibes';
+    font-weight: lighter;
+    font-size: 3em;
+}
+
+aside{
+    background-color: var(--cor01);
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 3px 15px #0000006c;
+}
+
+aside > h3{
+    background-color: var(--cor03);
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+    color: aliceblue;
+    margin: -10px -10px 0px -10px;
+}
+
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: "\2714\00A0";
+}
+
+footer{
+    background-color: var(--cor05);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+    transition-duration: 1s;
+}
+
+
+footer a:hover{
+    background-color: var(--cor03);
+    color: var(--cor05);
+    transition-duration: 1s;
+}
