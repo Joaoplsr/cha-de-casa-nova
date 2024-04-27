@@ -7,7 +7,10 @@
     src: url(fonts/SansSerifBookFLF.otf) format(opentype);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@font-face {
+    font-family: 'Dancing';
+    src: url(fonts/DancingScript-VariableFont_wght.ttf) format(truetype);
+}
 
 @keyframes fadeInFromTop {
     0%{
@@ -20,6 +23,7 @@
         transform: translateY(0px);
     }
 }
+
 
 :root{
     --cor00:#c5ebd6;
@@ -219,13 +223,13 @@ main h1{
 
 main div.container-1 h1{
     color: #031533;
-    font-family: 'Great Vibes';
+    font-family: 'Dancing';
     font-weight: lighter;
     padding-top: 10px;
 }
 
 main h1#casa-nova{
-    font-family: 'Great Vibes';
+    font-family: 'Dancing';
     text-align: center;
     color: #58719D;
     font-size: 5em;
@@ -236,14 +240,24 @@ main h1#casa-nova{
     -ms-user-select: none; /* Para Edge */
 }
 
+main div#container-je{
+    display: flex;
+    justify-content: center;
+}
+
 main h1#je{
     padding: 120px 0px;
-    font-family: 'Great Vibes';
+    font-family: 'Dancing';
     text-align: center;
     color: transparent;
-    font-size: 15em;
+    font-size: 30vw;
+    max-width: 900px;
+    max-height: 400px;
     font-weight: lighter;
     text-shadow: 4px 4px 7px rgba(255, 255, 255, 0.4), 0 0 #58719D;
+
+    
+    
     user-select: none; /* Padrão */
     -webkit-user-select: none; /* Para Safari */
     -moz-user-select: none; /* Para Firefox */
@@ -262,7 +276,7 @@ main h2{
 main h2#lista-de-contribuicoes{
     color: #2D4673;
     text-align: center;
-    font-family: 'Great Vibes';
+    font-family: 'Dancing';
     font-weight: lighter;
     font-size: 3em;
 }
