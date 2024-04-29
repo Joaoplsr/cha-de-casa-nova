@@ -310,7 +310,8 @@ main h2#lista-de-contribuicoes{
 }
 
 main div#qr{
-    
+    display: grid;
+    justify-items: center;
 }
 
 main div.qr-code{
