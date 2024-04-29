@@ -236,7 +236,7 @@ main ul{
 }
 
 main div ul.listas a{
-    text-decoration: none;
+    text-decoration: underline;
     color: #031533;
 }
 
