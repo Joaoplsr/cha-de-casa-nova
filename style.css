@@ -82,7 +82,7 @@ header div#jota img{
 }
 
 nav > a{
-    font-size: 1.5em;
+    font-size: 1.2em;
     animation: fadeInFromTop 2s ease 0s forwards;
     text-decoration: none;
     color: #58719D;
@@ -159,16 +159,23 @@ main div.container-1{
     margin-bottom: 20px;
 }
 
-main div.container-1 ul{
+main div.container-1 ul {
     list-style-position: inside;
     columns: 2;
 }
 
-main div.container-1 ul li{
-    font-size: 1.0em;
+main div.container-1 ul li {
+    font-size: 1.3em;
     line-height: 50px;
     padding-left: 15px;
     list-style-image: url(assets/lista-pq.png);
+}
+
+/* Estilos para telas pequenas */
+@media screen and (max-width: 550px) {
+    main div.container-1 ul {
+        columns: 1; /* Altera para uma coluna em telas menores */
+    }
 }
 
 #check{
@@ -300,6 +307,22 @@ main h2#lista-de-contribuicoes{
     font-family: 'Dancing';
     font-weight: lighter;
     font-size: 3em;
+}
+
+main div#qr{
+    
+}
+
+main div.qr-code{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+main div.qr-code img{
+    margin: auto;
 }
 
 aside{
