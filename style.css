@@ -151,6 +151,63 @@ main div#zap a{
     text-align: center;
 }
 
+main div#color ul{
+    list-style-type: none;
+    list-style-position: inside;
+    columns: 5;
+    text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+    main div#color ul {
+        columns: 1; /* Altera para uma coluna em telas menores */
+    }
+}
+
+.lista-cores{
+    font: normal bold 1em Arial;
+    color: #000000;
+    padding: 15px 0px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+#l1{
+    background-image: linear-gradient(to right, #ffffff 50%, #858585 50%);
+}
+
+#l2{
+    background-image: linear-gradient(to right, 
+        #000000 0%, /* Início da primeira cor */
+        #000000 33.33%, /* Final da primeira cor e início da segunda cor */
+        #747474 33.33%, /* Final da segunda cor e início da terceira cor */
+        #7a7a7a 66.66%, /* Final da terceira cor */
+        #FFFFFF 66.66% /* Início da terceira cor e cor final */
+    );
+}
+
+#l3{
+    color: #000000;
+    background-image: linear-gradient(to right, #000000 50%, #919191 50%);
+}
+
+#l3 span{
+    color: aliceblue;
+}
+
+#l4{
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+}
+
+#l5{
+    background-image: linear-gradient(to right, #000000 50%, #fdfdfd 50%);
+}
+
+#l5 span{
+    color:aliceblue;
+}
+
 main div.container-1{
     background-color: #58719d83;
     border-radius: 20px;
