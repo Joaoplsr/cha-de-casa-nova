@@ -285,7 +285,7 @@ main a{
 main h1{
     color: #2D4673;
     font-family: var(--fonte-h1);
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
     letter-spacing: 2px;
     user-select: none; /* Padrão */
