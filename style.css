@@ -35,7 +35,7 @@
 
     --fonte-padrao:Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    --fonte-android: 'Century', cursive;
+    --fonte-h1: 'Century', cursive;
 }
 
 *{
@@ -284,7 +284,7 @@ main a{
 
 main h1{
     color: #2D4673;
-    font-family: var(--fonte-android);
+    font-family: var(--fonte-h1);
     font-size: 3em;
     text-align: center;
     letter-spacing: 2px;
@@ -352,7 +352,7 @@ main h1#je{
 }
 
 main h2{
-    font-family: var(--fonte-android);
+    font-family: var(--fonte-h1);
     color: var(--cor04);
     font-size: 1.3em;
     padding: 5px;
