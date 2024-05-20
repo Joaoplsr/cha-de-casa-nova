@@ -44,7 +44,7 @@
 }
 
 body{
-    background-color: rgb(174, 217, 255);
+    background-color: #aed9ff;
     font-family: var(--fonte-padrao);
 }
 
@@ -99,7 +99,7 @@ nav > a:hover{
 }
 
 main{
-    background-color: rgb(221, 239, 255);
+    background-color: #ddefff;
     margin: auto;
     margin-bottom: 30px;
     border-radius: 0px 0px 15px 15px;
@@ -160,7 +160,7 @@ main div#color ul{
 
 @media screen and (max-width: 725px) {
     main div#color ul {
-        columns: 1; /* Altera para uma coluna em telas menores */
+        columns: 1; 
     }
 }
 
@@ -179,11 +179,11 @@ main div#color ul{
 
 #l2{
     background-image: linear-gradient(to right, 
-        #000000 0%, /* Início da primeira cor */
-        #000000 33.33%, /* Final da primeira cor e início da segunda cor */
-        #747474 33.33%, /* Final da segunda cor e início da terceira cor */
-        #7a7a7a 66.66%, /* Final da terceira cor */
-        #FFFFFF 66.66% /* Início da terceira cor e cor final */
+        #000000 0%,
+        #000000 33.33%,
+        #747474 33.33%, 
+        #7a7a7a 66.66%,
+        #FFFFFF 66.66%
     );
 }
 
@@ -229,10 +229,9 @@ main div.container-1 ul li {
     list-style-image: url(assets/lista-pq.png);
 }
 
-/* Estilos para telas pequenas */
 @media screen and (max-width: 660px) {
     main div.container-1 ul {
-        columns: 1; /* Altera para uma coluna em telas menores */
+        columns: 1; 
     }
 }
 
@@ -288,10 +287,10 @@ main h1{
     font-size: 4em;
     text-align: center;
     letter-spacing: 2px;
-    user-select: none; /* Padrão */
-    -webkit-user-select: none; /* Para Safari */
-    -moz-user-select: none; /* Para Firefox */
-    -ms-user-select: none; /* Para Edge */
+    user-select: none;
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
 }
 
 main div.container-1 h1{
@@ -303,10 +302,10 @@ main div.container-1 h1{
 }
 
 main ul{
-    user-select: none; /* Padrão */
-    -webkit-user-select: none; /* Para Safari */
-    -moz-user-select: none; /* Para Firefox */
-    -ms-user-select: none; /* Para Edge */
+    user-select: none;
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
 }
 
 main div ul.listas a{
@@ -320,10 +319,10 @@ main h1#casa-nova{
     color: #58719D;
     font-size: 5em;
     font-weight: lighter;
-    user-select: none; /* Padrão */
-    -webkit-user-select: none; /* Para Safari */
-    -moz-user-select: none; /* Para Firefox */
-    -ms-user-select: none; /* Para Edge */
+    user-select: none;
+    -webkit-user-select: none; 
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 main div#container-je{
@@ -344,10 +343,10 @@ main h1#je{
 
     
     
-    user-select: none; /* Padrão */
-    -webkit-user-select: none; /* Para Safari */
-    -moz-user-select: none; /* Para Firefox */
-    -ms-user-select: none; /* Para Edge */
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
 
 }
 
