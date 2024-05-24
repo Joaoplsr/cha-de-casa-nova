@@ -114,7 +114,8 @@ main div#centro{
     margin-bottom: 20px;
 }
 
-main div#zap{
+#zap{
+    position: relative;
     display: flex;
     justify-content: center;
     background-color: #031533;
@@ -124,14 +125,31 @@ main div#zap{
     border-radius: 40px;
     align-items: center;
     box-shadow: 0px 7px 7px #0000006c;
+    transition: all 1s ease;
 }
 
-main div#zap img{
+#zap:hover, .lista-cores:hover {
+    transition: all 1s ease;
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 7px #0000006c;
+}
+
+#zap img{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 120px;
     width: 30px;
     height: 30px;
 }
 
-main div#zap a{
+#zap a:hover {
+    color: #5979fc;
+}
+
+#zap a{
+    left: 25%;
+    position: absolute;
     margin: 15px 0px;
     padding: 10px 10px;
     text-decoration: none;
@@ -160,6 +178,7 @@ main div#color ul{
     margin-bottom: 10px;
     border-radius: 20px;
     box-shadow: 0px 7px 7px #0000006c;
+    transition: all 1s ease;
 }
 
 #l1{
