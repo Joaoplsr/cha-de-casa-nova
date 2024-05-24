@@ -96,6 +96,17 @@ main article div#primeiro-texto{
     box-shadow: 0px 7px 7px #0000006c;
 }
 
+@media (max-width:500px) {
+    main article div#primeiro-texto{
+        background-color: #58719d79;
+        padding: 20px;
+        border-radius: 20px;
+        margin-bottom: 40px;
+        box-shadow: 0px 7px 7px #0000006c;
+        text-align: justify;
+    }
+}
+
 main div#centro{
     display: flex;
     justify-content: center;
@@ -246,8 +257,7 @@ main p.lista{
 
 main strong{
     font-weight: bold;
-    color: var(--cor05);
-    
+    color: #031533;
 }
 
 main a{
