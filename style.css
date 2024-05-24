@@ -59,28 +59,6 @@ nav{
     border-radius: 0px 0px 25px 25px;
 }
 
-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #031533;
-}
-
-header div{
-    display: flex;
-    justify-content: center;
-    padding-top: 15px;
-    width: 200%;
-}
-
-header div#jota img{
-    background-color: #031533;
-    width: 20%;
-    min-width: 100px;
-    max-width: 200px;
-
-}
-
 nav > a{
     font-size: 1.2em;
     animation: fadeInFromTop 2s ease 0s forwards;
@@ -110,7 +88,7 @@ main{
     max-width: 1000px;
 }
 
-main div#primeiro-texto{
+main article div#primeiro-texto{
     background-color: #58719d79;
     padding: 20px;
     border-radius: 20px;
@@ -341,13 +319,10 @@ main h1#je{
     font-weight: lighter;
     text-shadow: 4px 4px 7px rgba(255, 255, 255, 0.4), 0 0 #58719D;
 
-    
-    
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none; 
     -ms-user-select: none; 
-
 }
 
 main h2{
