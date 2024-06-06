@@ -26,13 +26,6 @@
 
 
 :root{
-    --cor00:#c5ebd6;
-    --cor01:#83e1ad;
-    --cor02:#3ddc84;
-    --cor03:#2fa866;
-    --cor04:#1a5c37;
-    --cor05:#063d1e;
-
     --fonte-padrao:Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --fonte-h1: 'Century', cursive;
@@ -130,7 +123,7 @@ main div#centro{
 
 #zap:hover, .lista-cores:hover {
     transition: all 1s ease;
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     box-shadow: 0px 15px 7px #0000006c;
 }
 
